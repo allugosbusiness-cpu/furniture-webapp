@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import { useCart } from '../context/CartContext';
 import { getProduct } from '../data/products';
 
-const OWNER_PHONE = "263786452866";
+const OWNER_PHONE = "263782082093";
 
 export default function Checkout() {
   const { cart, clearCart, cartTotal } = useCart();
