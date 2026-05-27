@@ -9,7 +9,7 @@ export const products = [
     comparePrice: 90,
     images: [
       "/headboard-white-1.png",
-      "/headboard-white-2.png"
+      "/headboard-white-3.jpeg"
     ],
     inStock: true,
     negotiable: true
@@ -23,8 +23,8 @@ export const products = [
     price: 80,
     comparePrice: 100,
     images: [
-      "/headboard-white-1.png",
-      "/product-more-1.jpeg"
+      "/headboard-single-1.jpeg",
+      "/headboard-single-2.jpeg"
     ],
     inStock: true,
     negotiable: true
