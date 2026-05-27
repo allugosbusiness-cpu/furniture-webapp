@@ -24,7 +24,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-b from-granite-noir/80 via-granite-noir/40 to-granite-noir/80 z-10" />
           <img
-            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=80"
+            src="/product-more-1.jpeg"
             alt=""
             className="w-full h-full object-cover"
           />
