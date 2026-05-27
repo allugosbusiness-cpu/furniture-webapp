@@ -52,7 +52,7 @@ export default function NegotiateModal({ isOpen, onClose }) {
       `🕐 ${new Date().toLocaleString("en-ZW", { timeZone: "Africa/Harare" })}`
     );
 
-    const whatsappUrl = `https://wa.me/263775585364?text=${message}`;
+    const whatsappUrl = `https://wa.me/263786452866?text=${message}`;
 
     setTimeout(() => {
       setSending(false);

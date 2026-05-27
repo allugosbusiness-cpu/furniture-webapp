@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 import { useCart } from '../context/CartContext';
 import { getProduct } from '../data/products';
 
+const OWNER_PHONE = "263786452866";
+
 export default function Checkout() {
   const { cart, clearCart, cartTotal } = useCart();
   const navigate = useNavigate();
@@ -75,8 +77,8 @@ export default function Checkout() {
       `🕐 ${new Date().toLocaleString("en-ZW", { timeZone: "Africa/Harare" })}`
     );
 
-    // Send via WhatsApp (open WhatsApp Web with pre-filled message)
-    const whatsappUrl = `https://wa.me/263775585364?text=${message}`;
+    // Send via WhatsApp
+    const whatsappUrl = `https://wa.me/${OWNER_PHONE}?text=${message}`;
 
     // Clear cart
     clearCart();
