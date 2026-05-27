@@ -69,7 +69,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Furniture Hub ZW. All rights reserved.
           </p>
           <p className="text-iron_ore/40 text-xs">
-            Crafted with passion in Zimbabwe
+            Website designed by <a href="https://allugostech.com" target="_blank" rel="noopener noreferrer" className="text-savanna-ochre hover:text-savanna-ochre/80 transition-colors font-semibold">AllugosTech</a>
           </p>
         </div>
       </div>
