@@ -8,8 +8,8 @@ export const products = [
     price: 70,
     comparePrice: 90,
     images: [
-      "/headboard-white-1.png",
-      "/headboard-white-3.jpeg"
+      "/headboard-white.jpeg",
+      "/product-more-1.jpeg"
     ],
     inStock: true,
     negotiable: true
@@ -23,8 +23,8 @@ export const products = [
     price: 80,
     comparePrice: 100,
     images: [
-      "/headboard-single-1.jpeg",
-      "/headboard-single-2.jpeg"
+      "/headboard-single.jpeg",
+      "/product-more-2.jpeg"
     ],
     inStock: true,
     negotiable: true
@@ -38,8 +38,8 @@ export const products = [
     price: 230,
     comparePrice: 280,
     images: [
-      "/wardrobe-white-1.png",
-      "/product-more-2.jpeg"
+      "/wadrobe-white.png",
+      "/wadrobe4.png"
     ],
     inStock: true,
     negotiable: true
@@ -53,7 +53,7 @@ export const products = [
     price: 200,
     comparePrice: 250,
     images: [
-      "/black-sofa-1.png",
+      "/sofa (2).jpeg",
       "/product-more-3.jpeg"
     ],
     inStock: true,
@@ -76,14 +76,14 @@ export const products = [
   },
   {
     id: "6",
-    name: "Wooden Quad Bench",
-    category: "Seating",
-    description: "A sturdy wooden quad bench perfect for dining areas, gardens, or communal spaces. Built from quality wood with a natural finish that highlights the grain.",
-    features: ["Solid wood construction", "Seats 4 people", "Natural wood finish", "Indoor & outdoor use", "Easy to maintain"],
+    name: "Bedside Cabinet",
+    category: "Storage",
+    description: "A charming bedside cabinet crafted from quality wood with a smooth finish. Compact yet spacious enough for all your bedside essentials.",
+    features: ["Quality wood construction", "Smooth finish", "Drawer storage", "Compact design", "Perfect for bedside use"],
     price: 110,
     comparePrice: 140,
     images: [
-      "/wooden-bench-1.png",
+      "/bedside%20cabinet.png",
       "/product-more-2.jpeg"
     ],
     inStock: true,
